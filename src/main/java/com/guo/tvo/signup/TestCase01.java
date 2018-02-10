@@ -18,8 +18,9 @@ import org.openqa.selenium.support.ui.Select;
 
 public class TestCase01 
 {
-	
-	public static void main( String[] args ) throws IOException, InterruptedException   
+	  
+	@Test
+	public void test() throws IOException,InterruptedException
     {
         
         //System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\chromedriver.exe");     
