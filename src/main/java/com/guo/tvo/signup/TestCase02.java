@@ -8,6 +8,7 @@ import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 import org.junit.Assert;
+import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.Select;
 
@@ -20,7 +21,8 @@ import org.openqa.selenium.support.ui.Select;
 
 public class TestCase02
 {
-    public static void main( String[] args ) throws IOException
+        @Test
+	public void test() throws IOException,InterruptedException
     {
     	 // System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\chromedriver.exe");     
         System.setProperty("webdriver.chrome.driver", "./webDriver/chromedriver.exe");
